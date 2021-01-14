@@ -1,10 +1,20 @@
-<<<<<<< HEAD
+# hoval_avval
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+minimum=min(ages)
+#print(minimum)
+maximum=max(ages)
+ages.append(minimum)
+ages.append(maximum)
+ages.sort()
+numbers=len (ages)
+if numbers % 2 ==1:
+ mediane =(ages[int(numbers-1)/2])
+elif numbers % 2== 0:
+ mediane=((ages[int(numbers/2)])+(ages[int(numbers/2)-1]))/2
+else:
+ None
 
-for i in range(6):
- print(i*'*')
-=======
-print('edit1')
-print('edit2')
-for amals
-keep going
->>>>>>> 77fc06fa59214804a81698217826bd80fc8266e1
+print(int(mediane))
+
+
